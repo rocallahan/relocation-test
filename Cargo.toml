@@ -1,0 +1,12 @@
+[package]
+name = "relocation-test"
+version = "0.1.0"
+edition = "2018"
+authors = ["Robert O'Callahan <robert@ocallahan.org>"]
+
+[dependencies]
+actix-files = "0.3.0-beta.1"
+actix-web = "3.0.0-beta.1"
+
+[profile.dev.package."*"]
+opt-level = 2
